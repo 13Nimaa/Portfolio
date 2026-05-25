@@ -11,10 +11,8 @@ import {
   redux,
   tailwind,
   git,
+  nextjs,
   meta,
-  carrent,
-  jobit,
-  tripguide,
   holisticare,
   avatalk,
   hominex,
@@ -87,6 +85,10 @@ const technologies = [
     name: "Git & GitHub",
     icon: git,
   },
+  {
+    name: "Next.js",
+    icon: nextjs,
+  },
 ];
 
 const experiences = [
@@ -105,32 +107,20 @@ const experiences = [
       "Optimizing component rendering and data handling to eliminate unnecessary re-renders.",
     ],
   },
-];
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Front-End Developer",
+    company_name: "Hominex",
+    icon: web,
+    iconBg: "#E6DEDD",
+    date: "January 2026 - Present",
+    points: [
+      "Developing the front-end of a real estate marketplace that connects builders, agencies, and home buyers on a unified platform.",
+      "Building rich property listing pages with advanced search and filtering, map integration, and project showcases for developers.",
+      "Implementing a responsive, performance-optimized UI using React, TypeScript, and TailwindCSS.",
+      "Integrating REST APIs for real-time property data, inquiry management, and user authentication flows.",
+      "Contributing to an admin dashboard for managing listings, agents, and client inquiries.",
+      "Working closely with the product and design team to continuously improve UX across all device sizes.",
+    ],
   },
 ];
 
@@ -200,4 +190,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

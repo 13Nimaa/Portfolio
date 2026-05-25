@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL \"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg\" -o \"c:/Users/nima/Downloads/project_3D_developer_portfolio-main/project_3D_developer_portfolio-main/src/assets/tech/nextjs.svg\")"
+    ]
+  }
+}
