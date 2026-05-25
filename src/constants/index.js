@@ -85,10 +85,10 @@ const technologies = [
     name: "Git & GitHub",
     icon: git,
   },
-  {
-    name: "Next.js",
-    icon: nextjs,
-  },
+  // {
+  //   name: "Next.js",
+  //   icon: nextjs,
+  // },
 ];
 
 const experiences = [
